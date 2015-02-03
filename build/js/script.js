@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){var a=$(window).scrollTop();a>=300&&800>=a?$(".hamText").addClass("specialOne"):a>=700&&1100>=a?$(".bunText").addClass("specialTwo"):a>=1100&&1400>=a?$(".right-three .bunTextThree").addClass("specialThree"):a>=1500&&$(".final-stage .enjoy").addClass("finalColor")})});
